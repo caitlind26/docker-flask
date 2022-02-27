@@ -1,4 +1,7 @@
 # Project Setup
+![Production Workflow](https://github.com/caitlind26/docker-flask/actions/workflows/prod.workflow.yml)
+![Development Workflow](https://github.com/caitlind26/docker-flask/actions/workflows/development.workflow.yml)
+
 
 [![Run Tests, Build Dockerfile, Run on Heroku](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml)
 
