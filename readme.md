@@ -8,5 +8,3 @@
 [My App](https://cd394-dev.herokuapp.com/)
 
 # Test Change
-
-hi
