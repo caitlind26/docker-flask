@@ -1,9 +1,12 @@
 # Project Setup
 ![Production Workflow](https://github.com/caitlind26/docker-flask/actions/workflows/prod.workflow.yml/badge.svg)
+
+[My App](https://cd394-prod.herokuapp.com)
+
+
 ![Development Workflow](https://github.com/caitlind26/docker-flask/actions/workflows/development.workflow.yml/badge.svg)
 
-
-[![Run Tests, Build Dockerfile, Run on Heroku](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml)
+[My App](https://cd394-dev.herokuapp.com)
 
 ## Setting up CI/CD
 
@@ -41,7 +44,6 @@
 
 .pylintrc is the config for pylint .coveragerc is the config for coverage setup.py is a config file for pytest
 
-[My App](https://kwilliam-flask.herokuapp.com)
 
 # Test Change
 
