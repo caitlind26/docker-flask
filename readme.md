@@ -5,7 +5,7 @@
 
 ![Development Workflow](https://github.com/caitlind26/docker-flask/actions/workflows/development.workflow.yml/badge.svg)
 
-*[Development](https://cd394-dev.herokuapp.com)
+* [Development](https://cd394-dev.herokuapp.com)
 
 ## Setting up CI/CD
 
