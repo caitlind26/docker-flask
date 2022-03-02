@@ -1,7 +1,7 @@
 """A simple flask web app"""
 from flask import Flask, render_template
 #from app.context_processors import utility_text_processors
-#from app.simple_pages import simple_pages
+from app.simple_pages import simple_pages
 from app import simple_pages
 
 
