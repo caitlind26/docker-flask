@@ -1,5 +1,5 @@
 """ This is the Calculator Class"""
-
+from calculator.operations import Addition, Subtraction, Multiplication
 
 class Calculator:
     """ This is the default result property"""
