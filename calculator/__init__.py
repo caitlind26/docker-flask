@@ -2,7 +2,6 @@
 from calculator.operations import Addition, Subtraction, Multiplication
 
 class Calculator:
-    """ This is the default result property"""
 
     @staticmethod
     def add(value_1, value_2):
