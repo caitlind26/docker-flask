@@ -1,8 +1,8 @@
 
-#def test_request_index(client):
- #   """This makes the index page"""
-   # response = client.get("/")
-  #  assert b"Index Page"
+def test_request_index(client):
+    """This makes the index page"""
+    response = client.get("simple_pages/templates/index.html")
+    assert b"Home" in response.data
 
 
 #def test_request_git(client):
@@ -24,3 +24,4 @@
  #   """This tests the docker page"""
  #   response = client.get("/")
   #  assert b"Docker"
+
