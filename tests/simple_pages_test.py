@@ -13,7 +13,7 @@
 def test_request_pyflask(client):
     """This tests the pyflask page"""
     response = client.get("/pyflask.html")
-    assert b"Testing with pytest"
+    assert b"Testing with pytest" in response.data
 
 #def test_request_cicd(client):
     """This makes the index page"""
