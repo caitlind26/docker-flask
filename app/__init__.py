@@ -8,8 +8,5 @@ def create_app():
     app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
     app.register_blueprint(simple_pages)
 
-    @app.route("/")
-    def index():
-        return render_template('base.html')
 
     return app
