@@ -2,12 +2,14 @@
 def test_request_index(client):
     """This makes the index page"""
     response = client.get("/index")
+    assert response.code_status_code == 200
     assert b"Home" in response.data
 
 
 #def test_request_git(client):
 #    """This tests the index page"""
  #   response = client.get("/")
+#assert response.code_status_code == 200
   #  assert b"Git" in response.data
 
 #def test_request_pyflask(client):
