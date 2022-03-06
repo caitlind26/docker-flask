@@ -1,7 +1,7 @@
 
 def test_request_index(client):
     """This makes the index page"""
-    response = client.get("simple_pages/templates/index.html")
+    response = client.get("/index")
     assert b"Home" in response.data
 
 
